@@ -1,0 +1,111 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+    background-color: #EAC926;
+    width: 360px;
+}
+header div.top-header p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+div.menu i{
+  background-color: #0044aa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px 0px 20px 0px; 
+}
+
+div.menu{
+  text-align: center;
+}
+section.barner{
+  width: 100%;
+  object-fit: contain;
+}
+header ul li a{
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+p {
+    font-size: 12px;
+}
+h3 {
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento, .descripcion{
+    font-size: 16px;
+    font-weight: normal;
+}
+header .form .input {
+    background-color: #fff;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+  }
+  header .form .submit {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #666;
+    width: 5%;
+  }
+  div.top-header {
+    padding: 5%;
+  }
+  header div.logo {
+    width: 50%;
+  }
+  main section div i.fas{
+    border: 1px solid #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 50%;
+    color: #39b54a;
+    background-color: #FFF;
+ }
+  footer i.fa-solid{
+    color: #03264C;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+
+  }
+  footer{
+    text-align: center;
+    background-color: #fff;
+    font-size: 12;
+    padding: 10px;
+    width: 360px;
+  }
+  footer div i{
+    margin: 10px;
+  }
+  main{
+    width: 90vw;
+    margin-bottom: 10px;
+  }
+  
+
