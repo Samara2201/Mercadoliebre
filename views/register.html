@@ -11,6 +11,7 @@
 
     <!-- Libreria Fontawesome-->
     <script src="https://kit.fontawesome.com/439c181295.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
 
     <!-- Estilos propios-->
     <link href="/css/styles.css" rel="stylesheet">
@@ -63,7 +64,7 @@
 
     <main class="register">
        <div>
-        <form action="register">
+        <form action="/">
             <div>
                 <div class="formatos">
                     <input type="text" placeholder="Nombre y Apellido"  class="prueba">
@@ -79,54 +80,107 @@
                             <input type="radio" name="Seleccion" id="Comprador">
                             <label for="Comprador" class="buyer">Comprador</label>                          
                         </div>
-                        <div>
-                            <label for="Vendedor">Vendedor</label>
+                        <div class="comprador">
                             <input type="radio" name="Seleccion" id="Vendedor">
+                            <label for="Vendedor" class="seller">Vendedor</label> 
                         </div>
                     </div>
                 </div>
-                <div class="formatos">
-                    <h3 class="h33">Interes</h3>
-                    <label>
-                        <input type="checkbox" id="cbox1" value="first_checkbox">Electro <br>
-                    </label>
-                    <label>
-                        <input type="checkbox" id="cbox2" value="second_checkbox">Moda  <br>
-                    </label>
-                    <label>
-                        <input type="checkbox" id="cbox3" value="Third_checkbox">Hogar <br>
-                    </label>
-                    <label>
-                        <input type="checkbox" id="cbox3" value="Third_checkbox">Jugueteria<br>
-                    </label>
-                    <label>
-                        <input type="checkbox" id="cbox3" value="Third_checkbox">Vida Sana<br>
-                    </label>
+                <div class="checkbox">
+                    <div>
+                        <h3 class="h33">Interes</h3>
+                    </div>
+                    <div class="box1">
+                        <div>
+                            <input type="checkbox" id="cbox1" value="first_checkbox">
+                            <label for="cbox1" class="buyer"> Electro</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cbox2" value="second_checkbox">
+                            <label for="cbox2" class="buyer">Moda</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cbox3" value="Third_checkbox">
+                            <label for="cbox3" class="buyer">Hogar</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cbox4" value="fourth_checkbox">
+                            <label for="cbox4" class="buyer">Jugueteria</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cbox5" value="fifth_checkbox">
+                            <label for="cbox5" class="buyer">Vida Sana</label>
+                        </div>         
+                    </div>
                 </div>
-                <div class="formatos">
-                    <h3 class="h33">Foto de Usuario</h3>
-                    <label for="foto"></label>
-                    <input type="file" id="foto" name="foto" accept="image/png, image/jpeg">
+                <div class="foto">
+                    <div>
+                        <h3 class="h33">Foto de Usuario</h3>
+                    </div>
+                    <div>
+                        <label for="foto"></label>
+                        <input type="file" id="foto" name="foto" accept="image/png, image/jpeg" class="buyer">
+                    </div>
+                    
                 </div>
-                <div class="formatos">
-                    <label for="Contraseña"> Contraseña</label>
-                    <input type="password" name="Contraseña" id="Contraseña" required placeholder="Contraseña">
+                <div>
+                    <div class="foto">
+                        <label for="Contraseña" class="texto"> Contraseña</label>
+                        <div class="formatos2">
+                            <input type="password" name="Contraseña" id="Contraseña" required placeholder="Contraseña" class="prueba">
+                        </div>
+                    </div>
+                    <div class="foto">
+                        <label for="Contraseña" class="texto"> Confirmar Contraseña</label>
+                        <div  class="formatos2">
+                            <input type="password" name="Contraseña" id="Contraseña" required placeholder="Contraseña" class="prueba">
+                        </div>
                 </div>
-                <div class="formatos">
-                    <label for="Contraseña"> Confirmar Contraseña</label>
-                    <input type="password" name="Contraseña" id="Contraseña" required placeholder="Contraseña">
                 </div>
-                <div class="formatos">
-                    <a href="/">
-                        <button type="submit">Enviar</button>
-                    </a>
-                    <button type="reset">Borrar</button>
+                <div class="boton">
+                    <div class="botonn">
+                        <button type="submit" class="caja2">Enviar</button>
+                    </div>
+                    <div class="botonn">
+                        <button type="reset" class="caja2">Borrar</button>
+                    </div>
                 </div>
                 
             </div>
         </form>
        </div>   
     </main>
-    
 </body>
+<footer>
+    <div>
+      <div>
+        <i class="fa-solid fa-credit-card"></i>
+      </div>
+      <h3>Pagá con tarjeta o en efectivo</h3>
+      <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!
+      </p>
+    </div>
+    <div>
+      <div>
+        <i class="fa-solid fa-gift"></i>
+      </div>
+      <h3>Envío gratis desde $ 2.500</h3>
+      <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado
+        Puntos.</p>
+    </div>
+    <div>
+      <div>
+        <i class="fa-solid fa-user-shield"></i>
+      </div>
+      <h3>Seguridad, de principio a fin</h3>
+      <p>
+        ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.
+      </p>
+    </div>
+    <div>
+      <p>
+        Copyright © 1999-2020 MercadoLiebre S.R.L.
+      </p>
+    </div>
+  </footer>
 </html>
