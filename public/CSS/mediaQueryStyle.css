@@ -77,6 +77,24 @@
         z-index: 1;
         opacity: 1;
     }
+
+    /* register */
+    main .register{
+        display: flex;
+        justify-content: center;
+    }
+    
+    main div form{
+       margin: 0 5% 0 5%;
+
+    }
+     /* login */
+
+    .mainn{
+        margin: 0 5% 0 10%;
+    }
+
+
 }
 
 /* Desktop */
@@ -103,6 +121,44 @@
     article:hover {
         height: 19em;
     }
+/* Footer */
+    footer div i{
+        Transition: all 450ms;    
+    }
+    footer div i:hover {
+        color: var(--naranja);    
+    }
+    footer div{
+        display: flex;
+        flex-wrap: wrap; 
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+    footer div div{
+        width: 100%;
+        justify-content: center;
+    }
+    .ancho{
+        width: 32%;
+      }
+      main .register{
+        display: flex;
+        justify-content: center;
+    }
+    
+    main div form{
+       margin: 0 10% 0 10%;
+
+    }
+
+    .mainn{
+        margin: 0 5% 0 10%;
+        
+    }
+
+
+
+
 }
 
 /* TV hasta 1366 */
@@ -120,4 +176,5 @@
     article:hover {
         height: 24em;
     }
+   
 }
